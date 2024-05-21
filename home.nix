@@ -36,6 +36,7 @@
     python3
     bottom
     lm_sensors
+    nodejs_20
   ];
 
   programs.git = {
