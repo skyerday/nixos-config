@@ -7,7 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+      ./hardward/desktop_vm.nix
     ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
